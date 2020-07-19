@@ -1,0 +1,18 @@
+.droppable {
+    padding: 8px 0
+}
+
+.listItem {
+    cursor: grab;
+    padding: 16px 24px;
+    background-color: #2ca0ed;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: margin-left 600ms ease-in-out, scale 300ms;
+}
+
+.listItem.dragging {
+    background-color: #1f7dbc;
+    transform: scale(1.025);
+}
